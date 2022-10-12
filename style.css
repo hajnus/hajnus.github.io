@@ -30,6 +30,10 @@ a {
   text-decoration: none; 
 }
 
+a:hover {
+  color: aquamarine;
+}
+
 main {
   margin-top: 80px;
   color: #222;
