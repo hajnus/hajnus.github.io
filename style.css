@@ -1,0 +1,139 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.25em;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 800px; 
+  height: 80px; 
+  background-color: #333;
+  padding: 0 5%;
+  position: fixed; 
+  box-sizing: border-box; 
+  top: 0;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+
+a {
+  font-size: 36px;
+  color: white;
+  text-decoration: none; 
+}
+
+main {
+  margin-top: 80px;
+  color: #222;
+}
+
+.flex-row {
+  display: flex;
+  align-items: flex-start; /* vertical setting for different high of elements */
+  margin-bottom: 48px;
+}
+
+header, blockquote {
+  width: 40%;
+}
+
+header {
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  position: relative; 
+}
+
+section {
+  margin: 15px 37px 0 20px;
+  width: 60%;
+}
+
+h1 {
+  position: absolute; 
+  bottom: 0;
+  left: 37px;
+  font-size: 64px;
+}
+
+h1:first-line {
+  font-size: 0.5em;
+}
+
+h1,
+blockquote {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.55em;
+  text-transform: uppercase;
+  margin-bottom: 2em; 
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: .9em;
+  font-style: italic;
+  margin-top: -1em;
+  margin-bottom: .5em;
+}
+
+.flex-row:first-of-type { 
+  font-size: 1.2;
+}
+
+p, li, h3, h4 {
+  line-height: 1.5em;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: square; 
+}
+  
+blockquote {
+  box-sizing: border-box; 
+  position: relative;
+  padding: 37px;
+  background-color: #333;
+  color: white;
+  font-size: 50px;
+  margin: 0;
+}
+
+blockquote::before {
+  content: "„";
+  font-size: 120px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  transform: rotate(180deg);
+  height: auto;
+}
+
+hr {
+  border-top: 4px solid black;
+  margin: 80px 0;
+}
